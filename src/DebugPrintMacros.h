@@ -8,9 +8,9 @@
 // This value is resolved at compile time.
 #define _FILENAME_ strrchr("/" __FILE__, '/')
 
-#define DEBUG_ESP_ASYNC_TCP 1
+//#define DEBUG_ESP_ASYNC_TCP 1
 // #define DEBUG_ESP_TCP_SSL 1
-#define DEBUG_ESP_PORT Serial
+//#define DEBUG_ESP_PORT Serial
 
 #if defined(DEBUG_ESP_PORT) && !defined(DEBUG_TIME_STAMP_FMT)
 #define DEBUG_TIME_STAMP_FMT "%06u.%03u "

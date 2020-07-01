@@ -13,7 +13,7 @@
 #define TCP_MSS (1460)
 #endif
 
-#define ASYNC_TCP_DEBUG(...) printf(__VA_ARGS__)
+//#define ASYNC_TCP_DEBUG(...) printf(__VA_ARGS__)
 // #define TCP_SSL_DEBUG(...) ets_printf(__VA_ARGS__)
 // #define ASYNC_TCP_ASSERT( a ) do{ if(!(a)){ets_printf("ASSERT: %s %u \n", __FILE__, __LINE__);}}while(0)
 

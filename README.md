@@ -1,6 +1,6 @@
 # STM32AsyncTCP 
 
-This is as "close as possible" port of the well-known [ArduinoIDE library ESPAsyncTCP library](https://github.com/me-no-dev/ESPAsyncTCP) and I am of course immensely grateful to its author "me-no-dev" for his huge contribution to the community.
+This is as "close as possible" port of the well-known [ArduinoIDE library ESPAsyncTCP](https://github.com/me-no-dev/ESPAsyncTCP) and I am of course immensely grateful to its author "me-no-dev" for his huge contribution to the community.
 
 I have tried to make as few changes as possible, so that other Arduino libs that rely on ESPAsyncTCP can be ported with zero(ish) effort. It is testament to the quality and solidity of ESPAsyncTCP, the genius of the ArduinoUDE team and the STM32Duino library authors that this port didn't take long at all, and went *far* more smoothly and easily than I had expected.
 

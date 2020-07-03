@@ -268,7 +268,6 @@ bool AsyncClient::connect(IPAddress ip, uint16_t port){
   tcp_arg(pcb, this);
   tcp_err(pcb, &_s_error);
   size_t err = tcp_connect(pcb, &addr, port,(tcp_connected_fn)&_s_connected);
-  printf("connect: tcp_connect() returned err: %s(%ld)\n", errorToString(err), err);
   return (ERR_OK == err);
 }
 
